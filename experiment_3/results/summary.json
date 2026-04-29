@@ -1,0 +1,70 @@
+{
+  "timestamp": "2026-04-29T11:16:26.876025",
+  "train": {
+    "final": 316174.56973447767,
+    "return_pct": 216.17456973447767,
+    "trades": {
+      "n": 0,
+      "wr": 0,
+      "net": 0,
+      "longs": 0,
+      "shorts": 0
+    }
+  },
+  "test": {
+    "final": 102698.3122540797,
+    "return_pct": 2.6983122540797044,
+    "trades": {
+      "n": 0,
+      "wr": 0,
+      "net": 0,
+      "longs": 0,
+      "shorts": 0
+    },
+    "max_dd": 25.97137056053701,
+    "sharpe": 0.16550083268424323
+  },
+  "config": {
+    "sl_opts": [
+      2,
+      3,
+      5,
+      7,
+      10
+    ],
+    "tp_opts": [
+      6,
+      9,
+      15,
+      21,
+      30
+    ],
+    "rr": "1:3",
+    "timesteps": 200000,
+    "features": [
+      "ema_20_slope",
+      "ema_50_slope",
+      "ema_20_50_spread",
+      "ema_spread_slope",
+      "close_vs_ema20",
+      "close_vs_ema50",
+      "bb_pct_b",
+      "bb_width",
+      "bb_width_rank",
+      "bb_squeeze",
+      "atr_pct",
+      "rsi_14",
+      "macd_hist_norm",
+      "adx_14",
+      "ret_1d",
+      "ret_5d",
+      "ret_20d",
+      "volatility_20d",
+      "vol_ratio",
+      "combined_signal",
+      "spx_ret_1d",
+      "stock_vs_spx",
+      "regime"
+    ]
+  }
+}

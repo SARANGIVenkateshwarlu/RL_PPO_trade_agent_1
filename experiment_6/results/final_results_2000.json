@@ -1,0 +1,160 @@
+{
+  "timestamp": "2026-04-29T16:46:25.725689",
+  "train_time_seconds": 320.0129737854004,
+  "device": "cpu",
+  "num_symbols": 500,
+  "val_metrics": {
+    "final_equity": 87226.06941821493,
+    "return_pct": -12.773930581785065,
+    "sharpe": -1.3327712455200869,
+    "max_dd_pct": 13.542644459935167,
+    "num_trades": 63,
+    "win_rate": 0.0,
+    "avg_win_pct": 0.0,
+    "avg_loss_pct": -1.2664860323796776
+  },
+  "test_metrics": {
+    "final_equity": 89123.80864348022,
+    "return_pct": -10.87619135651977,
+    "sharpe": -0.6884809640922945,
+    "max_dd_pct": 11.09679798567317,
+    "num_trades": 107,
+    "win_rate": 0.9345794392523363,
+    "avg_win_pct": 0.07655541752779862,
+    "avg_loss_pct": -1.0945797326393978
+  },
+  "pretrain_steps": 5000,
+  "finetune_steps": 50000,
+  "best_params": {
+    "learning_rate": 0.0003,
+    "n_steps": 2048,
+    "batch_size": 128,
+    "gamma": 0.995,
+    "gae_lambda": 0.98,
+    "ent_coef": 0.01,
+    "clip_range": 0.2,
+    "n_epochs": 10,
+    "pi_layers": [
+      256,
+      256,
+      128
+    ],
+    "vf_layers": [
+      256,
+      256,
+      128
+    ]
+  },
+  "pretrain_history": [
+    {
+      "epoch": 1,
+      "loss": 0.3994621909223497,
+      "accuracy": 0.9052734375
+    },
+    {
+      "epoch": 2,
+      "loss": 0.18256097668781876,
+      "accuracy": 0.9619140625
+    },
+    {
+      "epoch": 3,
+      "loss": 0.1672648380510509,
+      "accuracy": 0.966015625
+    },
+    {
+      "epoch": 4,
+      "loss": 0.17046374101191758,
+      "accuracy": 0.9640625
+    },
+    {
+      "epoch": 5,
+      "loss": 0.15104545713402331,
+      "accuracy": 0.9669921875
+    },
+    {
+      "epoch": 6,
+      "loss": 0.12617079373449086,
+      "accuracy": 0.9669921875
+    },
+    {
+      "epoch": 7,
+      "loss": 0.10327192186377943,
+      "accuracy": 0.9669921875
+    },
+    {
+      "epoch": 8,
+      "loss": 0.08642399793025106,
+      "accuracy": 0.9669921875
+    },
+    {
+      "epoch": 9,
+      "loss": 0.06964586290996522,
+      "accuracy": 0.9669921875
+    },
+    {
+      "epoch": 10,
+      "loss": 0.058342710766009984,
+      "accuracy": 0.975390625
+    },
+    {
+      "epoch": 11,
+      "loss": 0.052535361307673153,
+      "accuracy": 0.9833984375
+    },
+    {
+      "epoch": 12,
+      "loss": 0.050919282832182944,
+      "accuracy": 0.984765625
+    },
+    {
+      "epoch": 13,
+      "loss": 0.053781061852350834,
+      "accuracy": 0.9828125
+    },
+    {
+      "epoch": 14,
+      "loss": 0.04095503906719387,
+      "accuracy": 0.9876953125
+    },
+    {
+      "epoch": 15,
+      "loss": 0.035286267288029194,
+      "accuracy": 0.9884765625
+    }
+  ],
+  "training_progress": [
+    {
+      "step": 20000,
+      "final_equity": 79732.20595141721,
+      "return_pct": -20.267794048582786,
+      "sharpe": -2.523644746741954,
+      "max_dd_pct": 20.267794048582786,
+      "num_trades": 97,
+      "win_rate": 0.0,
+      "avg_win_pct": 0.0,
+      "avg_loss_pct": -1.1713246778483015
+    },
+    {
+      "step": 40000,
+      "final_equity": 91582.44831323499,
+      "return_pct": -8.417551686765012,
+      "sharpe": -1.5196125791350188,
+      "max_dd_pct": 8.417551686765016,
+      "num_trades": 44,
+      "win_rate": 0.0,
+      "avg_win_pct": 0.0,
+      "avg_loss_pct": -1.1514673555971637
+    },
+    {
+      "step": 50000,
+      "final_equity": 89226.01366524184,
+      "return_pct": -10.773986334758156,
+      "sharpe": -1.6466239797783604,
+      "max_dd_pct": 10.773986334758154,
+      "num_trades": 45,
+      "win_rate": 0.0,
+      "avg_win_pct": 0.0,
+      "avg_loss_pct": -1.3002998906636896
+    }
+  ]
+}

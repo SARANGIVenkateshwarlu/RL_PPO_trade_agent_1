@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-04-29T13:33:02.824020",
+  "rl": {
+    "final_equity": 100993.4983951938,
+    "total_return_pct": 0.9934983951938037,
+    "sharpe": 0.20112593875813115,
+    "sortino": 0.010766712597530656,
+    "max_dd": 0.4278194187523049,
+    "num_trades": 0,
+    "win_rate": 0.0,
+    "avg_win_pct": 0.0,
+    "avg_loss_pct": 0.0,
+    "profit_factor": 0.0,
+    "exit_reasons": {}
+  },
+  "buy_hold": {
+    "final": 162605.762320135,
+    "return_pct": 62.60576232013499,
+    "max_dd": 22.188535200224887,
+    "trades": 25
+  },
+  "random": {
+    "final": 3971.570719811706,
+    "return_pct": -96.0284292801883,
+    "max_dd": 4.703975760442593,
+    "trades": 0
+  },
+  "config": {
+    "squeeze_min_level": 1,
+    "sl": "entry_candle_low/high",
+    "exit": "9_ema_cross",
+    "rr": "1:3",
+    "timesteps": 200000
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "timestamp": "2026-04-29T10:36:03.631754",
+  "train_final": 73308.53318865423,
+  "test_final": 87248.6956495235,
+  "train_return_pct": -26.691466811345776,
+  "test_return_pct": -12.751304350476488,
+  "max_drawdown_pct": 26.451685407572146,
+  "sharpe": -0.19878537428340962,
+  "config": {
+    "sl_pct": [
+      2,
+      3,
+      5,
+      7,
+      10
+    ],
+    "tp_pct": [
+      3,
+      5,
+      8,
+      12,
+      20
+    ],
+    "timesteps": 200000,
+    "features": [
+      "ema_9_slope",
+      "ema_21_slope",
+      "ema_9_21_spread",
+      "ema_9_50_spread",
+      "ema_21_50_spread",
+      "ema_spread_slope",
+      "bb_percent_b",
+      "bb_width",
+      "bb_width_rank",
+      "bb_squeeze",
+      "atr_pct",
+      "volatility_20",
+      "rsi_14",
+      "macd_hist_norm",
+      "adx_14",
+      "returns_1d",
+      "returns_5d",
+      "returns_20d",
+      "close_vs_ema21",
+      "close_vs_ema50",
+      "volume_ratio",
+      "combined_buy_signal"
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "timestamp": "2026-04-29T04:47:07.367292",
+  "train_final_equity": 10751.860993439255,
+  "test_final_equity": 7850.000000000016,
+  "train_return_pct": 7.5186099343925505,
+  "test_return_pct": -21.49999999999984,
+  "max_drawdown_pct": 31.140350877192706,
+  "sharpe_approx": -1.102955125963438,
+  "sortino_approx": -0.2612092708488607,
+  "config": {
+    "sl_options": [
+      10,
+      15,
+      20,
+      30,
+      40,
+      60,
+      90,
+      120
+    ],
+    "tp_options": [
+      10,
+      15,
+      20,
+      30,
+      40,
+      60,
+      90,
+      120
+    ],
+    "total_timesteps": 200000,
+    "features": [
+      "rsi_14",
+      "atr_pct",
+      "ema_9_slope",
+      "ema_21_slope",
+      "ema_50_slope",
+      "close_ema9_diff",
+      "close_ema21_diff",
+      "close_ema50_diff",
+      "ema_9_21_spread",
+      "ema_21_50_spread",
+      "ema_9_50_spread",
+      "ema_9_21_spread_slope",
+      "ema_21_50_spread_slope",
+      "macd_line",
+      "macd_signal",
+      "macd_hist",
+      "bb_percent_b",
+      "bb_bandwidth",
+      "stoch_k",
+      "stoch_d",
+      "volatility_ratio",
+      "volume_ratio",
+      "obv_slope",
+      "adx_14",
+      "ema_cross_signal"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-04-29T12:43:00.370010",
+  "rl": {
+    "final_equity": 100463.3052284772,
+    "total_return_pct": 0.46330522847719546,
+    "sharpe_ratio": 0.6619959719826517,
+    "sortino_ratio": 0.7142031382933104,
+    "max_drawdown_pct": 24.916823070485457,
+    "num_trades": 0,
+    "win_rate": 0.0,
+    "avg_win_pct": 0.0,
+    "avg_loss_pct": 0.0,
+    "profit_factor": 0.0,
+    "total_net_pct": 0.0
+  },
+  "buy_hold": {
+    "final": 59721.66126340508,
+    "return_pct": -40.27833873659492,
+    "max_dd": 98.3071743782137,
+    "trades": 1
+  },
+  "random_breakout": {
+    "final": 88414.27538601952,
+    "return_pct": -11.585724613980474,
+    "max_dd": 91.14319911772925,
+    "trades": 3
+  },
+  "config": {
+    "cash_fraction": 0.2,
+    "risk_per_trade": 0.01,
+    "reward_target": 0.03,
+    "rr_ratio": "1:3",
+    "timesteps": 200000,
+    "features": [
+      "Open",
+      "High",
+      "Low",
+      "Close",
+      "rsi_14",
+      "close_vs_sma20",
+      "pivot_r1_dist",
+      "pivot_s1_dist",
+      "volume_ratio",
+      "breakout_flag",
+      "ema_20_50_spread",
+      "bb_pct_b",
+      "bb_width_rank",
+      "bb_squeeze",
+      "atr_pct",
+      "macd_hist_norm",
+      "adx_14",
+      "ret_1d",
+      "ret_5d",
+      "volatility_20d",
+      "spx_regime"
+    ]
+  }
+}
