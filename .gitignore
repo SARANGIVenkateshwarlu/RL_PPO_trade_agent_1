@@ -1,3 +1,8 @@
 .python-version
 .venv
 .venv/
+__pycache__/
+experiments_3/
+experiments_4/
+experiments_5/
+experiments_6/
